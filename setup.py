@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ytdownload", 
+    name="ytdownloader", 
     version="0.0.1",
-    author="Miguel_2020",
+    author="Miguel Rose",
     author_email="michaeljamesrose@outlook.com",
-    description="An async youtube Video Downloader for Discord.py",
+    description="An Youtube Video Downloader for Discord.py",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Miguel-cyber/ytdownload",
+    url="https://github.com/Miguel-cyber/ytdownloader",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
