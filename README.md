@@ -1,19 +1,19 @@
-# ytdownloader
+# doggodownload
 
-ytdownloader is an async library to download youtube videos.
+doggodownload is an async library to download youtube videos.
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ytdownloader.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install doggodownload.
 
 ```bash
-pip install ytdownloader
+pip install doggodownload
 ```
 
 ## Usage
 
 ```python
-import ytdownloader
-youtube = ytdownloader.Youtube()
+import doggodownload
+youtube = doggodownload.Youtube()
 
 print(youtube.search(type="url", search="search your video here", download="yes", downloadformat="mp4"))
 
