@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="ytdownloader", 
     version="0.0.1",
-    author="Miguel Rose",
+    author="Miguel_Rose",
     author_email="michaeljamesrose@outlook.com",
     description="An Youtube Video Downloader for Discord.py",
     long_description=long_description,
