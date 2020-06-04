@@ -1,0 +1,8 @@
+README.md
+setup.py
+hoversearch/__init__.py
+hoversearch.egg-info/PKG-INFO
+hoversearch.egg-info/SOURCES.txt
+hoversearch.egg-info/dependency_links.txt
+hoversearch.egg-info/requires.txt
+hoversearch.egg-info/top_level.txt

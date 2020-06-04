@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: hoversearch
+Version: 0.0.1
+Summary: An Youtube Video Downloader for Discord.py
+Home-page: https://github.com/Miguel-cyber/hoversearch
+Author: Miguel_Rose
+Author-email: michaeljamesrose@outlook.com
+License: UNKNOWN
+Description: # hoversearch
+        
+        hoversearch is a Python Module to download youtube videos.
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install hoversearch.
+        
+        ```bash
+        pip install hoversearch
+        ```
+        
+        ## Usage
+        
+        ```python
+        import hoversearch
+        youtube = hoversearch.Youtube()
+        
+        print(youtube.search(type="url", search="search your video here", download="True", downloadformat="mp4"))
+        
+        ```
+        
+        ## License
+        [MIT](https://github.com/Miguel-cyber/hoversearch/blob/master/LICENSE)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
