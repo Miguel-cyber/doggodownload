@@ -45,14 +45,14 @@ class Youtube():
         if search is None:
             print("Nothing to search:", sys.exc_info()[0])
             raise
-        if download is None or download == "no":
+        if download is None or download == "False":
             if type == "url":
                 return url
             if type == "title":
                 return title
             if type == 'search':
                 return search
-        if download == "yes":
+        if download == "True":
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 ydl.download([url])
                 videoformat = str(downloadformat)
