@@ -15,7 +15,7 @@ pip install hoversearch
 import hoversearch
 youtube = hoversearch.Youtube()
 
-print(youtube.search(type="url", search="search your video here", download="yes", downloadformat="mp4"))
+print(youtube.search(type="url", search="search your video here", download="True", downloadformat="mp4"))
 
 ```
 
